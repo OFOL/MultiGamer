@@ -1,4 +1,4 @@
-//I changed shit
+//I changed shit - so what?
 
 import java.awt.BorderLayout;
 import java.awt.Color;

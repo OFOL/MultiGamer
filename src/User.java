@@ -1,3 +1,4 @@
+//No I'm not- you are
 public class User {
 	
 	private String name = "Default";

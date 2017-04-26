@@ -1,5 +1,5 @@
 //import java.util.Random;
-import java.util.Scanner;
+//import java.util.Scanner;
 
 public class User {
 	
@@ -8,7 +8,7 @@ public class User {
 	private int lost = 0; //count lost games
 	private int won = 0;//count won games
 	private int playerID;
-	private Scanner input;
+//	private Scanner input;
 	
 //	private int teamID;
 //	private int age = 0;

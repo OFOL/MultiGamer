@@ -1,4 +1,5 @@
 //Hannan is awesome - for real
+
 public class User {
 	
 	private String name = "Default";

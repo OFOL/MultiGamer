@@ -4,6 +4,8 @@ public class Game1 {
 	
 	private Scanner input;
 	private int winPoints = 10;
+	private int a;
+
 	
 	
 	public void playMe(User user) {

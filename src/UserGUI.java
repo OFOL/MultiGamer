@@ -1,3 +1,5 @@
+//I changed shit - so what? what's your problem
+
 import java.awt.BorderLayout;
 import java.awt.Color;
 import java.awt.GridBagConstraints;
@@ -76,22 +78,32 @@ public class UserGUI implements ActionListener {
         gbc_textField.gridx = 1;
         gbc_textField.gridy = 1;
         panel.add(textField, gbc_textField);
+      
+        lblUsername = new JLabel("Username:");
+        GridBagConstraints gbc_lblUsername = new GridBagConstraints();
+        gbc_lblUsername.anchor = GridBagConstraints.WEST;
+        gbc_lblUsername.insets = new Insets(0, 0, 5, 5);
+        gbc_lblUsername.gridx = 1;
+        gbc_lblUsername.gridy = 2;
+        panel.add(lblUsername, gbc_lblUsername);
         
         lblPassword = new JLabel("Password:");
+        lblPassword.setEnabled(true);
         GridBagConstraints gbc_lblPassword = new GridBagConstraints();
         gbc_lblPassword.anchor = GridBagConstraints.WEST;
         gbc_lblPassword.insets = new Insets(0, 0, 5, 5);
-        gbc_lblPassword.gridx = 0;
-        gbc_lblPassword.gridy = 2;
+        gbc_lblPassword.gridx = 1;
+        gbc_lblPassword.gridy = 4;
         panel.add(lblPassword, gbc_lblPassword);
         
         textField_1 = new JTextField();
+        textField_1.setEnabled(true);
         textField_1.setColumns(10);
         GridBagConstraints gbc_textField_1 = new GridBagConstraints();
         gbc_textField_1.anchor = GridBagConstraints.WEST;
         gbc_textField_1.insets = new Insets(0, 0, 5, 0);
-        gbc_textField_1.gridx = 1;
-        gbc_textField_1.gridy = 2;
+        gbc_textField_1.gridx = 2;
+        gbc_textField_1.gridy = 4;
         panel.add(textField_1, gbc_textField_1);
         
         lblConfirmPassword = new JLabel("Confirm Password:");
@@ -135,7 +147,6 @@ public class UserGUI implements ActionListener {
         }
     }
 }
-
 
 //import java.awt.BorderLayout;
 //import java.awt.Color;
@@ -248,3 +259,4 @@ public class UserGUI implements ActionListener {
 //        }
 //    }
 //}
+

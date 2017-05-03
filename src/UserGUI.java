@@ -132,8 +132,8 @@ public class UserGUI implements ActionListener {
             try {
             	User user = new User();
                 BufferedWriter writer = new BufferedWriter(new FileWriter("nuserInfo.txt"));
-                writer.write(username.getText() + "/" + new String(password.getPassword()) + "/" + user.getID());
-                user.setName(username.getText());
+//                writer.write(username.getText() + "/" + new String(password.getPassword()) + "/" + user.getID());
+//                user.setName(username.getText());
                 writer.close(); }
             catch (IOException e) { e.printStackTrace(); }
         }

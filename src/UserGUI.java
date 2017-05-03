@@ -78,14 +78,6 @@ public class UserGUI implements ActionListener {
         gbc_textField.gridx = 1;
         gbc_textField.gridy = 1;
         panel.add(textField, gbc_textField);
-      
-        lblUsername = new JLabel("Username:");
-        GridBagConstraints gbc_lblUsername = new GridBagConstraints();
-        gbc_lblUsername.anchor = GridBagConstraints.WEST;
-        gbc_lblUsername.insets = new Insets(0, 0, 5, 5);
-        gbc_lblUsername.gridx = 1;
-        gbc_lblUsername.gridy = 2;
-        panel.add(lblUsername, gbc_lblUsername);
         
         lblPassword = new JLabel("Password:");
         lblPassword.setEnabled(true);
